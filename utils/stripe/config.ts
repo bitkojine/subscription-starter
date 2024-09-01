@@ -11,8 +11,8 @@ export const stripe = new Stripe(
     // https://stripe.com/docs/building-plugins#setappinfo
     appInfo: {
       name: 'Next.js Subscription Starter',
-      version: '0.0.0',
-      url: 'https://github.com/vercel/nextjs-subscription-payments'
+      version: '0.1.0',
+      url: 'https://github.com/bitkojine/subscription-starter'
     }
   }
 );

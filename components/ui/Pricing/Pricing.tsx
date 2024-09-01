@@ -161,7 +161,7 @@ export default function Pricing({ user, products, subscription }: Props) {
                     {
                       'border border-pink-500': subscription
                         ? product.name === subscription?.prices?.products?.name
-                        : product.name === 'Freelancer'
+                        : product.name === "Let's go!"
                     },
                     'flex-1', // This makes the flex item grow to fill the space
                     'basis-1/3', // Assuming you want each card to take up roughly a third of the container's width
